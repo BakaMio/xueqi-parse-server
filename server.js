@@ -8,7 +8,7 @@
 
 const express = require('express');
 const cors = require('cors');
-const { parseUrl, SUPPORTED_TYPES } = require('./parsers');
+const { parseUrl, SUPPORTED_TYPES } = require('./index');
 
 const app = express();
 const PORT = process.env.PORT || 3000;
